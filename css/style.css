@@ -145,3 +145,18 @@ nav {
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
+
+/* Media Query - Responsividade */
+
+@media(max-width: 700px){
+
+    body{
+        background-color: #ff1100;
+    }
+
+    .cards{
+        .cardItem{
+            width: 70%;
+        }
+    }
+}
